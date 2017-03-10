@@ -7,13 +7,12 @@ This will be a drastic change to the theme, for personal use, feel free to do wh
 For now everything below still applies and will be adapted as I move on!
 
 
-![Panda Logo](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/panda.jpg)
+# 👹
 
-A _Superminimal_, _dark_ Syntax Theme. This is the latest version of the **Panda Syntax** theme. It's a _dark_ syntax theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes.
+Well I'm obviously getting rid of more and more things as promised. For now only worked on artwork. Hope you like the stuff made with lots of 😍 💝
 
 ---
-![Main ScreenShot](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/main.jpg)
-> The font in the screenshot is `Operator Mono`. From $199, exclusively at H&Co. http://www.typography.com/blog/introducing-operator
+![Main ScreenShot](screenshots/red-panda-sq.png)
 
 ---
 
@@ -40,26 +39,16 @@ Panda Syntax Theme Supported Packages `language-*` and optimized for many langua
 ## 📷 Screen Shots
 #### — JSX:
 
-![JSX ScreenShot](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/jsx.jpg)
-
 #### — SCSS:
-
-![SCSS ScreenShot](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/scss.jpg)
 
 #### — HTML:
 
-![HTML ScreenShot](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/html.jpg)
-
 #### — PHP:
-
-![PHP ScreenShot](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/php.jpg)
 
 ---
 
 ## 📞 Recommended
 Panda Created by [Atom](http://atom.io) on [Atom Material UI](https://atom.io/themes/atom-material-ui).
-
-[![Panda Ports](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/screenshots/ports.jpg)](http://panda.siamak.work)
 
 ---
 
