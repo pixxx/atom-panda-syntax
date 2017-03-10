@@ -6,6 +6,7 @@ This will be a drastic change to the theme, for personal use, feel free to do wh
 
 For now everything below still applies and will be adapted as I move on!
 
+
 ![Panda Logo](https://raw.githubusercontent.com/siamak/atom-panda-syntax/master/panda.jpg)
 
 A _Superminimal_, _dark_ Syntax Theme. This is the latest version of the **Panda Syntax** theme. It's a _dark_ syntax theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes.
