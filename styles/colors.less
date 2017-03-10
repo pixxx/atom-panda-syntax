@@ -1,61 +1,60 @@
-// These colors are specific to the theme. Do not use in a package!
+// These colors are not anymore specific to Atom-Panda-Syntax
+// Palettes are a mix of personal and free online palettes
+// my panda palette
+@pre-yellow:    #FFD600;
+@pre-red:       #EF426F;
+@orange-panda:  mix(spin(@pre-red, -31), spin(@pre-yellow, 17)); // _orange
+@red-panda:     darken(@pre-red, 6%);
+@red-spin:      spin(@red-panda, -50), 50%);
+@red-de-spin:   desaturate(spin(@red-panda, -80), 10%);
+// misc palette
+@rst-white:     #f5f5f5; // _white
+@rst-light:     #e5e7de; // _very-light-gray & _light-gray
+@rst-dark:      #0b3536; // _dark-gray & _gray
+@rst-blue:      #2677bb; // _blue & light-blue
+@rst-red:       #f54123;
+// ths palette
+@ths-orange:    #ff6d00;
+@ths-red:       #ff1744; // _red
+@ths-pink:      #ff1493;
+@ths-hotpink:   #ff6699; // _pink
+@ths-purple:    #9c27b0; // _purple
+@ths-blue:      #2962ff;
+@ths-teal:      #00Bfa5; // _green
+// swiss palette
+@scp-oro:       #e4bd0b;
+@scp-orto:      #e6c700;
+@scp-turq:      #00b8b8; // _green
+@scp-pink:      #fe9f97; // _light-pink
+@scp-blue:      #008cbc;
+// california palette
+@cal-peach:     #F8B195;
+@cal-blood:     #F67280;
+@cal-haze:      #C06C84;
+@cal-rain:      #6C5B7B; // _light-midnight
+@cal-blu:       #355C7D;
+// redlow palette
+@redlow-light:  #E1F5C4;
+@redlow-sun:    #EDE574;
+@redlow-yellow: #F9D423;
+@redlow-orange: #FC913A;
+@redlow-red:    #FF4E50;
 
-// @very-light-gray    : #E6E6E6; // replaced
-@lighter-gray       : darken(#E6E6E6, 10%);
-@light-gray         : #757575;
-@gray               : #373b41;
-
-@dark-gray          : lighten(#292A2B, 2%);
-@very-dark-gray     : #292A2B;
-
-@white              : #f3f3f3;
-@light-midnight     : #676B79;
-
-@blue               : #45A9F9;
-@light-blue         : #6FC1FF;
-@purple             : #B084EB;
-@green              : #19f9d8;
-
-@red                : #FF2C6D;
-
-@orange             : #FFB86C;
-@light-orange       : lighten(@orange, 8%);
-
-@pink               : #FF75B5;
-@light-pink         : #FF9AC1;
-
-// Colors -- SYT -- Color Sets - link is lost sadly
-// @redlow-light: #E1F5C4;
-// @redlow-sun: #EDE574;
-// @redlow-yellow: #F9D423;
-// @redlow-orange: #FC913A;
-// @redlow-red: #FF4E50;
-
-// Source = http://swisscolors.net
-// @scp-oro: #e4bd0b;
-// @scp-orto: #e6c700;
-// @scp-turq: #00b8b8;
-// @scp-pink-l: #fe9f97;
-// @scp-blue: #008cbc;
-
-// '^'
-// @rst-red: #f54123;
-// @rst-white: #e5e7de;
-// @rst-black: #0b3536;
-@rst-light: #fbfbfb; // replaces very-light-gray
-// @rst-blue: #2677bb;
-
-// Misc colors from previous work
-// @yellow: #FFD600;
-// @orange-panda: mix(#FF6F66, @yellow);
-// @red: #EF426F;
-// @red-panda: darken(#FF6F66, 6%);
-
-// Other "older" colors I used
-// @ths-red: #ff1744;
-// @ths-teal: #00Bfa5;
-// @ths-pink: #ff1493;
-// @ths-purple: #9c27b0;
-// @ths-orange: #ff6d00;
-// @ths-blue: #2962ff;
-// @ths-hotpink: #ff6699;
+// Payload ===> sorted
+// Keeping Atom-Panda-Syntax color variables - using my palettes
+@blue:            lighten(@rst-blue, 20%);
+@dark-gray:       @rst-dark;
+@gray:            lighten(@rst-dark, 5%);
+@green:           mix(lighten(@ths-teal, 20%), spin(@scp-turq, -10));
+@light-blue:      lighten(@rst-blue, 30%);
+@light-gray:      darken(@rst-light, 40%);
+@light-midnight:  @cal-rain;
+@light-orange:    lighten(@orange, 8%);
+@light-pink:      @scp-pink;
+@orange:          @orange-panda;
+@pink:            lighten(@ths-hotpink, 4%);
+@purple:          lighten(@ths-purple, 23%);
+@red:             lighten(spin(@ths-red, -10), 6%);
+@very-dark-gray:  darken(@rst-dark, 3%);
+@very-light-gray: @rst-light;
+@white:           @rst-white;
