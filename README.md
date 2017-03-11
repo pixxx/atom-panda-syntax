@@ -1,4 +1,4 @@
-![Red Panda refresh](screenshots/red-panda-basf.png)
+![Red Panda refresh](screenshots/red-panda-base.png)
 
 ## 😜
 
