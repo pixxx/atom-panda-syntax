@@ -1,4 +1,4 @@
-![Red Panda˛˘](screenshots/red-panda-basf.png)
+![Red Panda](screenshots/red-panda-basf.png)
 
 ## 😜
 
