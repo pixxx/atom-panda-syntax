@@ -1,4 +1,4 @@
-![Red Panda](red-panda-syntax/screenshots/red-panda-basf.png)
+![Red Panda](screenshots/red-panda-basf.png)
 
 ## 😜
 
@@ -12,7 +12,7 @@ For now everything below still applies and will be adapted as I move on!
 Well I'm obviously getting rid of more and more things as promised. For now only worked on artwork. Hope you like the stuff made with lots of 😍 💝
 
 ---
-![Main ScreenShot](red-panda-syntax/screenshots/red-panda-sq.png)
+![Main ScreenShot](screenshots/red-panda-sq.png)
 
 ---
 
