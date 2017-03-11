@@ -1,18 +1,17 @@
 {
-  "name": "atom-panda-syntax",
+  "name": "red-panda-syntax",
   "theme": "syntax",
-  "version": "0.18.0",
-  "description": "Panda syntax theme for Dark UI Theme.",
+  "version": "0.0.0",
+  "description": "modified Panda syntax theme for Dark UI Theme.",
   "keywords": [
     "syntax",
     "dark",
     "atom",
     "theme"
   ],
-  "repository": "https://github.com/siamak/atom-panda-syntax",
-  "author": "Siamak Mokhtari <s.mokhtari75@gmail.com> (http://siamak.us)",
+  "repository": "https://github.com/pixxx/red-panda-syntax",
+  "author": "SeeYouTomorrow <xenoflex@gmail.com>",
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/siamak/atom-panda-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
