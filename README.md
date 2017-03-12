@@ -12,8 +12,6 @@ I strongly suggest you fork or copy from the original **Panda-Syntax-Theme** if 
 
 I wont won't be doing any ports, I'm only using this with Atom, maybe one day I might make a UI version for it basing it on Atom Material UI, and a Terminal port, but don't expect anything soon.
 
-![Main ScreenShot](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/red-panda-sq.png)
-
 ---
 
 ## 🚨 _Installation_
