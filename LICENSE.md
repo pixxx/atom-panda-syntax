@@ -1,4 +1,4 @@
-Copyright (c) 2016 Siamak Mokhtari <hi@siamak.work>
+Copyright (c) 2017 See You Tomorrow <xenoflex@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

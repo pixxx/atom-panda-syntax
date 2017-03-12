@@ -36,19 +36,22 @@ Panda Syntax Theme Supported Packages `language-*` and optimized for many langua
 ## 📷 _Screen Shots_
 — Sass Less PostCSS HTML Go:
 
-##### gohtml file:
+#### gohtml file:
 ![Go](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/go.png)
 
-##### pcss file:
+#### pcss file:
 ![Post Css](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/pcss.png)
 
-##### sass file:
+#### sass file:
 ![Sass](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/sass.png)
 
-##### scss file:
+#### scss file:
 ![Scss](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/scss.png)
 
-##### pug file:
+#### html file:
+![HTML](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/html.png)
+
+#### pug file:
 ![Pug](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/pug.png)
 
 ---
