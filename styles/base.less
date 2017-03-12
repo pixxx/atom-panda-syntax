@@ -386,9 +386,9 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 			color: @blue; // SYT
 		}
 	}
-	&.syntax--punctuation.syntax--definition.css {
-		color: @red;
-	}
+	// &.syntax--punctuation.syntax--definition.css {
+	// 	color: @red;
+	// }
 }
 .syntax--meta {
 	&.syntax--class {
@@ -485,14 +485,14 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 	}
 }
 
-.syntax--bracket-matcher .syntax--region {
+.bracket-matcher .region {
 	border-bottom-color: @green;
 }
 
-.syntax--cursors .syntax--cursor {
+.cursors .cursor {
 	border-color: @red !important;
 }
-atom-text-editor .syntax--scroll-view,
-atom-text-editor[mini] .syntax--scroll-view {
+atom-text-editor .scroll-view,
+atom-text-editor[mini] .scroll-view {
 	padding-left: 2px;
 }
