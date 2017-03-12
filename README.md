@@ -33,10 +33,10 @@ Panda Syntax Theme Supported Packages `language-*` and optimized for many langua
 * _HTML:_ `Pug(Jade)`, `Slim`, `MarkDown(.md)`, `HAML`.
 * _CSS:_ `Sass`, `SCSS`, `LESS`.
 * _JavaScript:_ `JS`, `ES6`, `JSX`, `CoffeeScript`.
-* _C++_, _Python_, _GO_.
+* _C++_, _Python_, _Go_.
 
 ## 📷 _Screen Shots_
-— Sass Less PostCSS HTML GO:
+— Sass Less PostCSS HTML Go:
 
 ##### gohtml file:
 ![Go](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/go.png)
