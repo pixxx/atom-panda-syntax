@@ -229,15 +229,12 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 .syntax--invalid {
 	&.syntax--illegal {
-		// border-bottom: 1px dashed fade(@green, 50%);
 		border-bottom: 1px dashed fade(@red, 50%);
 	}
 	&.syntax--deprecated {
 		background-color: fade(#FF2C6D, 62%);
 	}
 }
-
-
 .syntax--string {
 	color: @green;
 	&.syntax--regexp {
@@ -278,7 +275,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		}
 		&.syntax--string {
 			color: @green;
-			// SYT added this
+			// Added ==> SYT
 			&.syntax--quoted,
 			&.syntax--html {
 				color: @red;
@@ -294,7 +291,8 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		}
 		&.syntax--tag {
 			&.syntax--html {
-				color: @light-gray; // pre light-orange
+				// html ==> gray "greater/smaller than"
+				color: @red;
 			}
 			&.syntax--jsx {
 				color: @orange;
@@ -374,21 +372,21 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		color: @blue;
 	}
 	&.syntax--name.syntax--tag {
-		color: @light-orange; // pre red
-		// font-weight: 500;
+		color: @light-orange;
 	}
 	&.syntax--other.syntax--attribute-name {
-		color: @blue; // pre orange
+		color: @blue;
 		&.syntax--placeholder {
 			color: @green;
 		}
 		&.syntax--id {
-			color: @blue; // SYT
+			color: @blue;
 		}
 	}
-	// &.syntax--punctuation.syntax--definition.css {
-	// 	color: @red;
-	// }
+	// Triggers Deprecation Warning (added syntax-- to css maybe that was it)
+	&.syntax--punctuation.syntax--definition.syntax--css {
+		color: @red;
+	}
 }
 .syntax--meta {
 	&.syntax--class {
@@ -484,13 +482,8 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		}
 	}
 }
-
 .bracket-matcher .region {
 	border-bottom-color: @green;
-}
-
-.cursors .cursor {
-	border-color: @red !important;
 }
 atom-text-editor .scroll-view,
 atom-text-editor[mini] .scroll-view {
