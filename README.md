@@ -27,7 +27,7 @@ Panda Syntax Theme Supported Packages `language-*` and optimized for many langua
 * _C++_, _Python_, _Go_.
 
 #### example:
-![Less](screenshots/code_example.png)
+![Less](https://raw.githubusercontent.com/pixxx/red-panda-syntax/master/screenshots/code_example.png)
 
 ## _I use and recommend_
 
