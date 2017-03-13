@@ -164,7 +164,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--constant {
-	color: @constant;
+	color: @const-color;
 	&.syntax--character.syntax--escape {
 		color: @blue;
 	}
@@ -265,7 +265,6 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		color: @red;
 	}
 }
-
 .syntax--punctuation {
 	color: @red;
 	&.syntax--definition {
@@ -284,7 +283,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		}
 		&.syntax--string {
 			color: @green;
-			// Added ==> SYT
+			// Added quoted
 			&.syntax--quoted,
 			&.syntax--js,
 			&.syntax--html {
@@ -301,8 +300,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		}
 		&.syntax--tag {
 			&.syntax--html {
-				// html ==> gray "greater/smaller than"
-				color: @red;
+				color: @red; // html tag braces
 			}
 			&.syntax--jsx {
 				color: @orange;
@@ -332,11 +330,22 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 	}
 }
 .syntax--support {
+	&.syntax--constant {
+		&.syntax--color {
+			&.syntax--w3c-standard-color-name{
+				&.syntax--css {
+					color: @w3c-standard;
+				}
+			}
+		}
+	}
 	&.syntax--class {
 		color: @light-orange;
 	}
 	&.syntax--type {
-		color: @white;
+		&.syntax--property-name {
+			color: @white;
+		}
 		&.syntax--object {
 			&.syntax--module {
 				&.syntax--js {
@@ -389,6 +398,12 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 	}
 	&.syntax--name.syntax--tag {
 		color: @light-orange;
+		&.syntax--custom {
+			&.syntax--postcss {
+				font-style: italic;
+				color: @blue;
+			}
+		}
 	}
 	&.syntax--other.syntax--attribute-name {
 		color: @blue;
@@ -405,6 +420,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 	}
 }
 .syntax--meta {
+	&.syntax--attribute-selector {
+		&.syntax--postcss {
+			color: @red;
+		}
+	}
 	&.syntax--class {
 		color: @light-orange;
 	}
@@ -501,6 +521,12 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 		&.syntax--ordered {
 			color: @pink;
 		}
+	}
+}
+.syntax--source {
+	&.syntax--css,
+	&.syntax--postcss {
+		color: @blue;
 	}
 }
 .bracket-matcher .region {

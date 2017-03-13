@@ -1,6 +1,6 @@
-@light-midnight:  dimgray; // color for comments
+@light-midnight:  dimgray; // = comments only!
 
-@very-dark-gray:  lighten(black, 13%); // 13% = #212121 / 12% = #1f1f1f
+@very-dark-gray:  lighten(black, 13%);
 @dark-gray:       darken(darkslategray, 10%);
 @gray:            darkslategray;
 @light-gray:      darkgray;
@@ -20,6 +20,8 @@
 @pink:            lighten(mediumvioletred, 20%);
 @light-pink:      lighten(hotpink, 10%);
 
-@green:           fade(spin(mediumspringgreen, 3), 97%);
-// - new special colors
-@constant:        navajowhite;
+@green:           mediumspringgreen;
+
+@const-color:     navajowhite;
+@w3c-standard:    mix(fuchsia, lavender);
+@bltin-func-less: @blue; // = vendor prefixes = me getting stupid !!!
